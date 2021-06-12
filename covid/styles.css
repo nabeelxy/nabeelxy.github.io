@@ -11,6 +11,8 @@
 }
 
 .column img {
+  max-width: 50%;
+  height: auto;
   margin-top: 8px;
   vertical-align: middle;
 }
