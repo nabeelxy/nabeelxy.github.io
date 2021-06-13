@@ -19,13 +19,13 @@ def print_img(image, title, i):
 	print('  modal{}.style.display = "block";'.format(i))
 	print('  modalImg{}.src = this.src;'.format(i))
 	print('  captionText{}.innerHTML = this.alt;'.format(i))
-	print('}}')
+	print('}')
 
 	print('var span{} = document.getElementById("close{}");'.format(i, i))
 
 	print('span{}.onclick = function() {{'.format(i))
 	print('  modal{}.style.display = "none";'.format(i))
-	print('}}')
+	print('}')
 	print('</script>')
 
 if __name__ == "__main__":
