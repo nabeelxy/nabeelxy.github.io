@@ -121,10 +121,7 @@ div.desc {
   <div class="desc">Number of Active Cases vs. Tests</div>
 </div>
 <script>
-// Get the modal
 var modal1 = document.getElementById("myModal1");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var img1 = document.getElementById("myImg1");
 var modalImg1 = document.getElementById("img01");
 var captionText1 = document.getElementById("caption1");
@@ -132,20 +129,14 @@ img1.onclick = function(){
   modal1.style.display = "block";
   modalImg1.src = this.src;
   captionText1.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
+}}
 var span1 = document.getElementById("close1");
-
-// When the user clicks on <span> (x), close the modal
-span1.onclick = function() { 
+span1.onclick = function() {
   modal1.style.display = "none";
-}
+}}
 </script>
-
-
 <div class="gallery">
-  <img id="myImg2" src="img/pcrpercent.png" alt="Number of Active Cases per PCR Test"> <!--width="600" height="400">-->
+  <img id="myImg2" src="img/pcrpercent.png" alt="Number of Active Cases per PCR Test">
   <div id="myModal2" class="modal">
     <span class="close" id="close2">&times;</span>
     <img class="modal-content" id="img02">
@@ -154,10 +145,7 @@ span1.onclick = function() {
   <div class="desc">Number of Active Cases per PCR Test</div>
 </div>
 <script>
-// Get the modal
 var modal2 = document.getElementById("myModal2");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var img2 = document.getElementById("myImg2");
 var modalImg2 = document.getElementById("img02");
 var captionText2 = document.getElementById("caption2");
@@ -165,17 +153,12 @@ img2.onclick = function(){
   modal2.style.display = "block";
   modalImg2.src = this.src;
   captionText2.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
+}}
 var span2 = document.getElementById("close2");
-
-// When the user clicks on <span> (x), close the modal
-span2.onclick = function() { 
+span2.onclick = function() {
   modal2.style.display = "none";
-}
+}}
 </script>
-
 <div class="gallery">
   <img id="myImg3" src="img/active.png" alt="Active Covid Cases in Asia">
   <div id="myModal3" class="modal">
@@ -186,10 +169,7 @@ span2.onclick = function() {
   <div class="desc">Active Covid Cases in Asia</div>
 </div>
 <script>
-// Get the modal
 var modal3 = document.getElementById("myModal3");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var img3 = document.getElementById("myImg3");
 var modalImg3 = document.getElementById("img03");
 var captionText3 = document.getElementById("caption3");
@@ -197,72 +177,203 @@ img3.onclick = function(){
   modal3.style.display = "block";
   modalImg3.src = this.src;
   captionText3.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
+}}
 var span3 = document.getElementById("close3");
-
-// When the user clicks on <span> (x), close the modal
-span3.onclick = function() { 
+span3.onclick = function() {
   modal3.style.display = "none";
-}
+}}
 </script>
-
 <div class="gallery">
-  <a target="_blank" href="img/active_SL.png">
-    <img src="img/active_SL.png" alt="Cinque Terre"> <!-- width="25%">  height="400"-->
-  </a>
+  <img id="myImg4" src="img/active_SL.png" alt="Active Covid Cases in SL">
+  <div id="myModal4" class="modal">
+    <span class="close" id="close4">&times;</span>
+    <img class="modal-content" id="img04">
+    <div id="caption4"></div>
+  </div>
   <div class="desc">Active Covid Cases in SL</div>
 </div>
-
+<script>
+var modal4 = document.getElementById("myModal4");
+var img4 = document.getElementById("myImg4");
+var modalImg4 = document.getElementById("img04");
+var captionText4 = document.getElementById("caption4");
+img4.onclick = function(){
+  modal4.style.display = "block";
+  modalImg4.src = this.src;
+  captionText4.innerHTML = this.alt;
+}}
+var span4 = document.getElementById("close4");
+span4.onclick = function() {
+  modal4.style.display = "none";
+}}
+</script>
 <div class="gallery">
-  <a target="_blank" href="img/recovered.png">
-    <img src="img/recovered.png" alt="Cinque Terre"> <!-- width="25%">  height="400"-->
-  </a>
+  <img id="myImg5" src="img/recovered.png" alt="Total Recovered">
+  <div id="myModal5" class="modal">
+    <span class="close" id="close5">&times;</span>
+    <img class="modal-content" id="img05">
+    <div id="caption5"></div>
+  </div>
   <div class="desc">Total Recovered</div>
 </div>
-
-
-
+<script>
+var modal5 = document.getElementById("myModal5");
+var img5 = document.getElementById("myImg5");
+var modalImg5 = document.getElementById("img05");
+var captionText5 = document.getElementById("caption5");
+img5.onclick = function(){
+  modal5.style.display = "block";
+  modalImg5.src = this.src;
+  captionText5.innerHTML = this.alt;
+}}
+var span5 = document.getElementById("close5");
+span5.onclick = function() {
+  modal5.style.display = "none";
+}}
+</script>
 <div class="gallery">
-  <a target="_blank" href="img/vaccinated.png">
-    <img src="img/vaccinated.png" alt="Mountains"> <!-- width="600" height="400">-->
-  </a>
+  <img id="myImg6" src="img/vaccinated.png" alt="Percentage Vaccinated in Asia">
+  <div id="myModal6" class="modal">
+    <span class="close" id="close6">&times;</span>
+    <img class="modal-content" id="img06">
+    <div id="caption6"></div>
+  </div>
   <div class="desc">Percentage Vaccinated in Asia</div>
 </div>
-
+<script>
+var modal6 = document.getElementById("myModal6");
+var img6 = document.getElementById("myImg6");
+var modalImg6 = document.getElementById("img06");
+var captionText6 = document.getElementById("caption6");
+img6.onclick = function(){
+  modal6.style.display = "block";
+  modalImg6.src = this.src;
+  captionText6.innerHTML = this.alt;
+}}
+var span6 = document.getElementById("close6");
+span6.onclick = function() {
+  modal6.style.display = "none";
+}}
+</script>
 <div class="gallery">
-  <a target="_blank" href="img/vaccinated_LK.png">
-    <img src="img/vaccinated_LK.png" alt="Mountains"> <!-- width="600" height="400">-->
-  </a>
+  <img id="myImg7" src="img/vaccinated_LK.png" alt="Percentage Vaccinated in SL">
+  <div id="myModal7" class="modal">
+    <span class="close" id="close7">&times;</span>
+    <img class="modal-content" id="img07">
+    <div id="caption7"></div>
+  </div>
   <div class="desc">Percentage Vaccinated in SL</div>
 </div>
-
+<script>
+var modal7 = document.getElementById("myModal7");
+var img7 = document.getElementById("myImg7");
+var modalImg7 = document.getElementById("img07");
+var captionText7 = document.getElementById("caption7");
+img7.onclick = function(){
+  modal7.style.display = "block";
+  modalImg7.src = this.src;
+  captionText7.innerHTML = this.alt;
+}}
+var span7 = document.getElementById("close7");
+span7.onclick = function() {
+  modal7.style.display = "none";
+}}
+</script>
 <div class="gallery">
-  <a target="_blank" href="img/vaccinedelay_LK.png">
-    <img src="img/vaccinedelay_LK.png" alt="Mountains"> <!-- width="600" height="400">-->
-  </a>
+  <img id="myImg8" src="img/vaccinedelay_LK.png" alt="Vaccination Delay">
+  <div id="myModal8" class="modal">
+    <span class="close" id="close8">&times;</span>
+    <img class="modal-content" id="img08">
+    <div id="caption8"></div>
+  </div>
   <div class="desc">Vaccination Delay</div>
 </div>
-
+<script>
+var modal8 = document.getElementById("myModal8");
+var img8 = document.getElementById("myImg8");
+var modalImg8 = document.getElementById("img08");
+var captionText8 = document.getElementById("caption8");
+img8.onclick = function(){
+  modal8.style.display = "block";
+  modalImg8.src = this.src;
+  captionText8.innerHTML = this.alt;
+}}
+var span8 = document.getElementById("close8");
+span8.onclick = function() {
+  modal8.style.display = "none";
+}}
+</script>
 <div class="gallery">
-  <a target="_blank" href="img/death.png">
-    <img src="img/death.png" alt="Northern Lights"> <!-- width="600" height="400">-->
-  </a>
+  <img id="myImg9" src="img/death.png" alt="Total Death in Asia">
+  <div id="myModal9" class="modal">
+    <span class="close" id="close9">&times;</span>
+    <img class="modal-content" id="img09">
+    <div id="caption9"></div>
+  </div>
   <div class="desc">Total Death in Asia</div>
 </div>
+<script>
+var modal9 = document.getElementById("myModal9");
+var img9 = document.getElementById("myImg9");
+var modalImg9 = document.getElementById("img09");
+var captionText9 = document.getElementById("caption9");
+img9.onclick = function(){
+  modal9.style.display = "block";
+  modalImg9.src = this.src;
+  captionText9.innerHTML = this.alt;
+}}
+var span9 = document.getElementById("close9");
+span9.onclick = function() {
+  modal9.style.display = "none";
+}}
+</script>
 <div class="gallery">
-  <a target="_blank" href="img/newdeath.png">
-    <img src="img/newdeath.png" alt="Northern Lights"> <!-- width="600" height="400">-->
-  </a>
-  <div class="desc"> New Death in Asia</div>
+  <img id="myImg10" src="img/newdeath.png" alt="New Death in Asia">
+  <div id="myModal10" class="modal">
+    <span class="close" id="close10">&times;</span>
+    <img class="modal-content" id="img010">
+    <div id="caption10"></div>
+  </div>
+  <div class="desc">New Death in Asia</div>
 </div>
-
+<script>
+var modal10 = document.getElementById("myModal10");
+var img10 = document.getElementById("myImg10");
+var modalImg10 = document.getElementById("img010");
+var captionText10 = document.getElementById("caption10");
+img10.onclick = function(){
+  modal10.style.display = "block";
+  modalImg10.src = this.src;
+  captionText10.innerHTML = this.alt;
+}}
+var span10 = document.getElementById("close10");
+span10.onclick = function() {
+  modal10.style.display = "none";
+}}
+</script>
 <div class="gallery">
-  <a target="_blank" href="img/death_LK.png">
-    <img src="img/death_LK.png" alt="Northern Lights"> <!-- width="600" height="400">-->
-  </a>
+  <img id="myImg11" src="img/death_LK.png" alt="Total Death in SL and Predicted">
+  <div id="myModal11" class="modal">
+    <span class="close" id="close11">&times;</span>
+    <img class="modal-content" id="img011">
+    <div id="caption11"></div>
+  </div>
   <div class="desc">Total Death in SL and Predicted</div>
 </div>
+<script>
+var modal11 = document.getElementById("myModal11");
+var img11 = document.getElementById("myImg11");
+var modalImg11 = document.getElementById("img011");
+var captionText11 = document.getElementById("caption11");
+img11.onclick = function(){
+  modal11.style.display = "block";
+  modalImg11.src = this.src;
+  captionText11.innerHTML = this.alt;
+}}
+var span11 = document.getElementById("close11");
+span11.onclick = function() {
+  modal11.style.display = "none";
+}}
+</script>
 </body>
 </html>
