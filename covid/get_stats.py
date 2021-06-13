@@ -56,6 +56,8 @@ fig.autofmt_xdate()
 fig.set_size_inches(8, 4.5)
 fig.savefig('lk/img/death.png', dpi=600)
 
+####################################################################
+
 import datetime
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tkr
@@ -114,6 +116,9 @@ fig.autofmt_xdate()
 fig.set_size_inches(8, 4.5)
 fig.savefig('lk/img/active.png', dpi=600)
 
+###################################################################
+
+
 country_meta_datas = [
     #{'alpha_2': 'IN', 'color': 'orange'},
     {'alpha_2': 'LK', 'color': 'maroon'},
@@ -144,7 +149,7 @@ for country_meta_data in country_meta_datas:
     plt.plot(x, y, color=country_meta_data['color'])
 
 plt.title(
-    'Active COVID19Cases per 100,000 people in South Asia.',
+    'Active COVID19Cases per 100,000 people in Sri Lanka.',
 )
 plt.suptitle(
     'Data Source: https://github.com/CSSEGISandData/COVID-19',
@@ -165,7 +170,7 @@ fig.autofmt_xdate()
 fig.set_size_inches(8, 4.5)
 fig.savefig('lk/img/active_SL.png', dpi=600)
 
-
+#############################################################
 country_data = covid_data.load_jhu_data()['LK']
 timeseries = country_data['timeseries']
 
@@ -212,6 +217,8 @@ fig.autofmt_xdate()
 fig.set_size_inches(12, 6.75)
 fig.savefig('lk/img/recovered.png', dpi=600)
 
+#################################################################
+
 from covid19 import lk_data
 
 timeseries = lk_data.get_timeseries()
@@ -249,7 +256,7 @@ fig.autofmt_xdate()
 fig.set_size_inches(12, 6.75)
 fig.savefig('lk/img/casesvstest.png', dpi=600)
 
-
+#################################################################
 import numpy as np
 
 from covid19 import lk_data
@@ -289,7 +296,7 @@ fig.autofmt_xdate()
 fig.set_size_inches(12, 6.75)
 fig.savefig('lk/img/pcrpercent.png', dpi=600)
 
-
+##################################################################
 
 legend_labels = []
 country_meta_datas = [
@@ -300,7 +307,7 @@ country_meta_datas = [
     {'alpha_2': 'BD', 'color': 'darkgreen'},
     {'alpha_2': 'AF', 'color': 'lightblue'},
     # {'alpha_2': 'MV', 'color': 'red'},
-    {'alpha_2': 'BT', 'color': 'purple'},
+    #{'alpha_2': 'BT', 'color': 'purple'},
 ]
 for country_meta_data in country_meta_datas:
     country_data = jhu_data[country_meta_data['alpha_2']]
@@ -339,7 +346,7 @@ fig.autofmt_xdate()
 fig.set_size_inches(8, 4.5)
 fig.savefig('lk/img/vaccinated.png', dpi=600)
 
-
+#############################################################
 
 country_alpha_2 = 'LK'
 country_data = jhu_data[country_alpha_2]
@@ -387,6 +394,7 @@ fig.autofmt_xdate()
 fig.set_size_inches(12, 6.75)
 fig.savefig('lk/img/vaccinated_%s.png' % (country_alpha_2), dpi=600)
 
+##############################################################
 
 country_alpha_2 = 'LK'
 country_data = jhu_data[country_alpha_2]
@@ -439,6 +447,7 @@ fig.autofmt_xdate()
 fig.set_size_inches(12, 6.75)
 fig.savefig('lk/img/death_%s.png' % country_alpha_2, dpi=600)
 
+###############################################################
 
 country_alpha_2 = 'LK'
 country_data = jhu_data[country_alpha_2]
@@ -503,7 +512,7 @@ fig.autofmt_xdate()
 fig.set_size_inches(12, 6.75)
 fig.savefig('lk/img/vaccinedelay_%s.png' % (country_alpha_2), dpi=300)
 
-
+###################################################################
 
 
 import os
