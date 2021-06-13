@@ -1,0 +1,268 @@
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 1000px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+<h2 style="text-align:center"> Covid Statistics in Asia/Sri Lanka</h2> 
+<div class="gallery">
+  <img id="myImg1" src="img/casesvstest.png" alt="Number of Active Cases vs. Tests">
+  <div id="myModal1" class="modal">
+    <span class="close" id="close1">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption1"></div>
+  </div>
+  <div class="desc">Number of Active Cases vs. Tests</div>
+</div>
+<script>
+// Get the modal
+var modal1 = document.getElementById("myModal1");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img1 = document.getElementById("myImg1");
+var modalImg1 = document.getElementById("img01");
+var captionText1 = document.getElementById("caption1");
+img1.onclick = function(){
+  modal1.style.display = "block";
+  modalImg1.src = this.src;
+  captionText1.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementById("close1");
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() { 
+  modal1.style.display = "none";
+}
+</script>
+
+
+<div class="gallery">
+  <img id="myImg2" src="img/pcrpercent.png" alt="Number of Active Cases per PCR Test"> <!--width="600" height="400">-->
+  <div id="myModal2" class="modal">
+    <span class="close" id="close2">&times;</span>
+    <img class="modal-content" id="img02">
+    <div id="caption2"></div>
+  </div>
+  <div class="desc">Number of Active Cases per PCR Test</div>
+</div>
+<script>
+// Get the modal
+var modal2 = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img2 = document.getElementById("myImg2");
+var modalImg2 = document.getElementById("img02");
+var captionText2 = document.getElementById("caption2");
+img2.onclick = function(){
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+  captionText2.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementById("close2");
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() { 
+  modal2.style.display = "none";
+}
+</script>
+
+<div class="gallery">
+  <img id="myImg3" src="img/active.png" alt="Active Covid Cases in Asia">
+  <div id="myModal3" class="modal">
+    <span class="close" id="close3">&times;</span>
+    <img class="modal-content" id="img03">
+    <div id="caption3"></div>
+  </div>
+  <div class="desc">Active Covid Cases in Asia</div>
+</div>
+<script>
+// Get the modal
+var modal3 = document.getElementById("myModal3");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img3 = document.getElementById("myImg3");
+var modalImg3 = document.getElementById("img03");
+var captionText3 = document.getElementById("caption3");
+img3.onclick = function(){
+  modal3.style.display = "block";
+  modalImg3.src = this.src;
+  captionText3.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span3 = document.getElementById("close3");
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() { 
+  modal3.style.display = "none";
+}
+</script>
+
+<div class="gallery">
+  <a target="_blank" href="img/active_SL.png">
+    <img src="img/active_SL.png" alt="Cinque Terre"> <!-- width="25%">  height="400"-->
+  </a>
+  <div class="desc">Active Covid Cases in SL</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/recovered.png">
+    <img src="img/recovered.png" alt="Cinque Terre"> <!-- width="25%">  height="400"-->
+  </a>
+  <div class="desc">Total Recovered</div>
+</div>
+
+
+
+<div class="gallery">
+  <a target="_blank" href="img/vaccinated.png">
+    <img src="img/vaccinated.png" alt="Mountains"> <!-- width="600" height="400">-->
+  </a>
+  <div class="desc">Percentage Vaccinated in Asia</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/vaccinated_LK.png">
+    <img src="img/vaccinated_LK.png" alt="Mountains"> <!-- width="600" height="400">-->
+  </a>
+  <div class="desc">Percentage Vaccinated in SL</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/vaccinedelay_LK.png">
+    <img src="img/vaccinedelay_LK.png" alt="Mountains"> <!-- width="600" height="400">-->
+  </a>
+  <div class="desc">Vaccination Delay</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/death.png">
+    <img src="img/death.png" alt="Northern Lights"> <!-- width="600" height="400">-->
+  </a>
+  <div class="desc">Total Death in Asia</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img/newdeath.png">
+    <img src="img/newdeath.png" alt="Northern Lights"> <!-- width="600" height="400">-->
+  </a>
+  <div class="desc"> New Death in Asia</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img/death_LK.png">
+    <img src="img/death_LK.png" alt="Northern Lights"> <!-- width="600" height="400">-->
+  </a>
+  <div class="desc">Total Death in SL and Predicted</div>
+</div>
+</body>
+</html>
