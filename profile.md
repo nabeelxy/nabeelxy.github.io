@@ -98,7 +98,7 @@ Using AI to detect and neutralize cyber threats:
 
 ## Recent Patent Portfolio
 
-> 27 patents across two categories: AI Security and AI for Cybersecurity.
+> 28 patents across two categories: AI Security and AI for Cybersecurity.
 
 ### AI Security (6 patents)
 Protecting AI systems from adversarial attacks and misuse.
@@ -112,7 +112,7 @@ Protecting AI systems from adversarial attacks and misuse.
 | Browser Extension Squatting | Aug 2025 | Proactively identifies browser extensions that generative AI models are likely to hallucinate, creating a defensive blocklist before attackers exploit LLM hallucination behavior. |
 | Adversarial-Resistant Deep Learning for Malicious JS Detection | Jul 2023 | Framework for training deep learning models that are resistant to adversarial examples and maintain low false positive rates — foundational work in robust ML for security. |
 
-### AI for Cybersecurity (21 patents)
+### AI for Cybersecurity (22 patents)
 Using AI to detect and neutralize cyber threats.
 
 | Title | Date | Description |
