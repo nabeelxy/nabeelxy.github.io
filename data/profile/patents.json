@@ -42,12 +42,12 @@
     },
     {
       "id": "phantom-squatting",
-      "title": "Phantom Squatting",
-      "full_title": "Phantom Squatting: Anticipating GenAI-Hallucinated URLs Before Attackers Do",
+      "title": "Browser Extension Squatting",
+      "full_title": "Browser Extension Squatting: Anticipating GenAI-Hallucinated Extensions Before Attackers Do",
       "category": "AI Security",
       "date": "2025-08",
-      "description": "Proactively identifies URLs that generative AI models are likely to hallucinate, registering defensive blocklists before attackers exploit LLM hallucination behavior.",
-      "tags": ["GenAI Hallucination", "LLM Safety", "Domain Squatting"],
+      "description": "Proactively identifies browser extensions that generative AI models are likely to hallucinate, creating a defensive blocklist before attackers exploit LLM hallucination behavior.",
+      "tags": ["GenAI Hallucination", "LLM Safety", "Extension Squatting"],
       "file": ""
     },
     {
@@ -82,12 +82,12 @@
     },
     {
       "id": "qr-code-shield",
-      "title": "QR Code Shield",
-      "full_title": "QR Code Shield: Detect QR Code Phishing Attacks at the Source",
+      "title": "Defensively Registered Domain Detector",
+      "full_title": "Defensively Registered Domain Detector: LLM-Based Attribution of Defensively Registered Domains to Brands",
       "category": "AI for Cyber",
       "date": "2026-01",
-      "description": "Detection system for phishing attacks delivered via QR codes, analyzing encoded URLs and visual context to catch quishing attacks at the source.",
-      "tags": ["QR Phishing", "Quishing", "Phishing Detection"],
+      "description": "LLM based attribution of defensively registered domains to brands.",
+      "tags": ["Domain Attribution", "LLM", "Brand Protection"],
       "file": ""
     },
     {
