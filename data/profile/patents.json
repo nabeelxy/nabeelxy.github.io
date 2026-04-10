@@ -52,12 +52,12 @@
     },
     {
       "id": "iupg-adversarial",
-      "title": "IUPG: Adversarial-Resistant Deep Learning",
+      "title": "Adversarial-Resistant Deep Learning for Malicious JS Detection",
       "full_title": "Innocent Until Proven Guilty (IUPG): Building Adversarial Resistant and False Positive Resistant Deep Learning Models",
       "category": "AI Security",
-      "date": "2021-04",
+      "date": "2023-07",
       "description": "Framework for training deep learning models that are resistant to adversarial examples and maintain low false positive rates — foundational work in robust ML for security.",
-      "tags": ["Adversarial Robustness", "ML Security", "False Positives"],
+      "tags": ["Adversarial Robustness", "AI Security", "False Positives"],
       "file": ""
     },
     {
