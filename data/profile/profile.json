@@ -1,0 +1,15 @@
+{
+  "name": "Mohamed Nabeel",
+  "title": "AI Security Researcher",
+  "tagline": "Building autonomous agents and adversarial ML systems to detect, classify, and neutralize AI-powered cyber threats at scale.",
+  "bio": "AI Security Researcher focused on the intersection of machine learning and cybersecurity. My work spans building autonomous threat intelligence agents, developing adversarial ML defenses, and pioneering methods to detect GenAI-generated malware and abuse. I apply large language models and graph neural networks to real-world security problems, with research published at VirusBulletin, DEFCON, and [Un]prompted.",
+  "links": {
+    "github": "https://github.com/nabeelxy",
+    "scholar": "https://scholar.google.com/citations?user=Lka4RwsAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/myoosuf/",
+    "twitter": "https://x.com/nabeelxy",
+    "arxiv": "https://arxiv.org/search/cs?searchtype=author&query=Nabeel,Mohamed"
+  },
+  "last_updated": "2026-04-09T00:00:00Z",
+  "updated_by": "seed"
+}

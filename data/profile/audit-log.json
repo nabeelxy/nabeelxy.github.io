@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "id": "seed-001",
+      "timestamp": "2026-04-09T00:00:00Z",
+      "type": "seed",
+      "summary": "Initial profile seeded from sources.md, selected_patents/ directory, and manual research. Populated talks (3 conference presentations), patents (12 AI security patents), profile bio, and placeholder publications.",
+      "sources_checked": ["sources.md", "selected_patents/", "manual"],
+      "items_updated": ["profile.json", "talks.json", "patents.json", "publications.json", "github.json"],
+      "agent_model": null,
+      "changes": {
+        "talks": {"added": 3, "updated": 0, "removed": 0},
+        "patents": {"added": 12, "updated": 0, "removed": 0},
+        "publications": {"added": 1, "updated": 0, "removed": 0}
+      }
+    }
+  ],
+  "total_runs": 1,
+  "last_updated": "2026-04-09T00:00:00Z"
+}

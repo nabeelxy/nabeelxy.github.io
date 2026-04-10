@@ -1,0 +1,45 @@
+{
+  "talks": [
+    {
+      "id": "unprompted-2026",
+      "title": "Detecting GenAI Threats at Scale with YARA-Like Semantic Rules",
+      "venue": "[Un]prompted AI Security Practitioner Conference",
+      "venue_short": "[Un]prompted",
+      "date": "2026-03",
+      "location": "San Francisco, CA",
+      "youtube_url": "https://www.youtube.com/watch?v=PZYtJL6TCwo",
+      "youtube_id": "PZYtJL6TCwo",
+      "description": "Presenting a novel approach to detecting GenAI-powered threats using semantic rules inspired by YARA, enabling scalable, interpretable detection of AI-generated malicious content.",
+      "tags": ["GenAI Detection", "YARA", "Semantic Rules", "Threat Detection"],
+      "category": "AI Security"
+    },
+    {
+      "id": "defcon-recon-2025",
+      "title": "CTI Agent: Automated Battlecards from CTI Reports",
+      "venue": "DEFCON Recon",
+      "venue_short": "DEFCON",
+      "date": "2025-08",
+      "location": "Las Vegas, NV",
+      "youtube_url": "https://www.youtube.com/watch?v=Y8xMr2JwyjU",
+      "youtube_id": "Y8xMr2JwyjU",
+      "description": "Demonstrating an autonomous CTI agent that reads threat intelligence reports and automatically generates structured battlecards for security analysts, reducing manual analysis time dramatically.",
+      "tags": ["CTI", "Autonomous Agents", "LLM", "Threat Intelligence"],
+      "category": "AI for Cyber"
+    },
+    {
+      "id": "virusbulletin-2025",
+      "title": "Deep Dive into the Abuse of DL APIs to Create Malicious AI Models and How to Detect Them",
+      "venue": "VirusBulletin",
+      "venue_short": "VirusBulletin",
+      "date": "2025-09",
+      "location": "Dublin, Ireland",
+      "youtube_url": "https://www.youtube.com/watch?v=NYmx6i3bzW4",
+      "youtube_id": "NYmx6i3bzW4",
+      "description": "Comprehensive analysis of how attackers abuse deep learning APIs (Hugging Face, etc.) to distribute malicious AI models, and detection techniques using behavioral and structural analysis.",
+      "tags": ["Malicious Models", "Deep Learning", "Model Security", "Detection"],
+      "category": "AI Security"
+    }
+  ],
+  "last_updated": "2026-04-09T00:00:00Z",
+  "updated_by": "seed"
+}

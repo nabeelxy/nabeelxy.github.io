@@ -1,0 +1,53 @@
+{
+  "publications": [
+    {
+      "id": "arxiv-2601.04553",
+      "title": "Deep Dive into the Abuse of DL APIs To Create Malicious AI Models and How to Detect Them",
+      "authors": ["Mohamed Nabeel", "et al."],
+      "arxiv_id": "2601.04553",
+      "abstract": "Public deep learning model repositories such as Hugging Face have become attractive targets for adversaries distributing malicious AI model artifacts. This paper provides a comprehensive analysis of how attackers abuse deep learning APIs to embed malicious payloads inside model files, and presents a multi-stage detection pipeline combining static structural analysis with behavioral profiling to identify these threats at scale.",
+      "date": "2026-01",
+      "categories": ["cs.CR", "cs.LG"],
+      "url": "https://arxiv.org/abs/2601.04553",
+      "citation_count": null,
+      "tags": ["Malicious AI Models", "DL API Abuse", "Model Security"],
+      "source": "arxiv"
+    },
+    {
+      "id": "arxiv-2512.10029",
+      "title": "Malicious GenAI Chrome Extensions: Unpacking Data Exfiltration and Malicious Behaviours",
+      "authors": ["Mohamed Nabeel", "et al."],
+      "arxiv_id": "2512.10029",
+      "abstract": "Generative AI-themed browser extensions have proliferated rapidly, with many exhibiting data exfiltration and other malicious behaviors while masquerading as productivity tools. This paper analyzes the ecosystem of malicious GenAI Chrome extensions, characterizing their attack patterns, data collection methods, and evasion techniques, and proposes detection strategies based on semantic and behavioral analysis.",
+      "date": "2025-12",
+      "categories": ["cs.CR"],
+      "url": "https://arxiv.org/abs/2512.10029",
+      "citation_count": null,
+      "tags": ["GenAI Extensions", "Data Exfiltration", "Browser Security"],
+      "source": "arxiv"
+    },
+    {
+      "id": "arxiv-2502.09788",
+      "title": "MANTIS: Detection of Zero-Day Malicious Domains Leveraging Low Reputed Hosting Infrastructure",
+      "authors": ["Mohamed Nabeel", "et al."],
+      "arxiv_id": "2502.09788",
+      "abstract": "Zero-day malicious domains pose a critical challenge for web security: they are registered and weaponized faster than reputation systems can react. MANTIS addresses this by leveraging signals from low-reputation hosting infrastructure — shared IP neighborhoods, registrar patterns, and certificate characteristics — to detect malicious domains at time-of-registration, before any user exposure.",
+      "date": "2025-02",
+      "venue": "IEEE Symposium on Security & Privacy 2025",
+      "categories": ["cs.CR"],
+      "url": "https://arxiv.org/abs/2502.09788",
+      "citation_count": null,
+      "tags": ["Zero-Day Domains", "Domain Detection", "Hosting Infrastructure"],
+      "source": "arxiv"
+    }
+  ],
+  "scholar_stats": {
+    "total_publications": 83,
+    "citations": 1821,
+    "h_index": 21,
+    "i10_index": 34,
+    "profile_url": "https://scholar.google.com/citations?user=Lka4RwsAAAAJ&hl=en&sortby=pubdate"
+  },
+  "last_updated": "2026-04-09T00:00:00Z",
+  "updated_by": "manual-review"
+}

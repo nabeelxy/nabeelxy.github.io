@@ -1,0 +1,286 @@
+{
+  "patents": [
+    {
+      "id": "agent-skill-sanitization",
+      "title": "AI Agent Skill Content Sanitization",
+      "full_title": "Multi-State Classification and Targeted Sanitization of AI Agent Skill Content",
+      "category": "AI Security",
+      "date": "2026-02",
+      "description": "Classifies and sanitizes AI agent skill content across multiple states to prevent injection of malicious capabilities into agentic AI systems.",
+      "tags": ["Agentic AI", "AI Safety", "Skill Injection"],
+      "file": ""
+    },
+    {
+      "id": "idpi-detector",
+      "title": "Indirect Prompt Injection Detector",
+      "full_title": "Agentic Web-based Indirect Prompt Injection (IDPI) Detector",
+      "category": "AI Security",
+      "date": "2026-02",
+      "description": "Detects indirect prompt injection attacks targeting web-based agentic AI systems, defending LLM agents against adversarial inputs embedded in web content.",
+      "tags": ["Prompt Injection", "LLM Security", "Agentic AI"],
+      "file": ""
+    },
+    {
+      "id": "protect-browser-agents",
+      "title": "Browser Agent Web-Threat Protection",
+      "full_title": "A Method for Protecting Browser Agents from Web-Based Threats",
+      "category": "AI Security",
+      "date": "2025-12",
+      "description": "Systematic method to protect browser-based AI agents from web-based threats including prompt hijacking, data exfiltration, and malicious tool misuse.",
+      "tags": ["Browser Agents", "AI Safety", "Web Security"],
+      "file": ""
+    },
+    {
+      "id": "malware-in-dl-models",
+      "title": "Evasive Malware in Deep Learning Models",
+      "full_title": "Detecting Evasive Malware Embedded in Deep Learning Models that Abuse Hidden Functionalities",
+      "category": "AI Security",
+      "date": "2025-09",
+      "description": "Detection system for malware hidden inside deep learning model artifacts that abuse hidden functionalities — addressing the emerging threat of weaponized AI models.",
+      "tags": ["Model Security", "Malware Detection", "DL API Abuse"],
+      "file": "DRD Detector Patent.pdf"
+    },
+    {
+      "id": "phantom-squatting",
+      "title": "Phantom Squatting",
+      "full_title": "Phantom Squatting: Anticipating GenAI-Hallucinated URLs Before Attackers Do",
+      "category": "AI Security",
+      "date": "2025-08",
+      "description": "Proactively identifies URLs that generative AI models are likely to hallucinate, registering defensive blocklists before attackers exploit LLM hallucination behavior.",
+      "tags": ["GenAI Hallucination", "LLM Safety", "Domain Squatting"],
+      "file": ""
+    },
+    {
+      "id": "iupg-adversarial",
+      "title": "IUPG: Adversarial-Resistant Deep Learning",
+      "full_title": "Innocent Until Proven Guilty (IUPG): Building Adversarial Resistant and False Positive Resistant Deep Learning Models",
+      "category": "AI Security",
+      "date": "2021-04",
+      "description": "Framework for training deep learning models that are resistant to adversarial examples and maintain low false positive rates — foundational work in robust ML for security.",
+      "tags": ["Adversarial Robustness", "ML Security", "False Positives"],
+      "file": ""
+    },
+    {
+      "id": "crx-agent",
+      "title": "CRXAgent: Agentic Extension Detection",
+      "full_title": "CRXAgent: Agentic Malicious Extension Detection with Semantic Understanding and Efficient Code Analysis",
+      "category": "AI for Cyber",
+      "date": "2026-02",
+      "description": "LLM-agent-based detection of malicious Chrome extensions using semantic code understanding and efficient static analysis, catching novel threats missed by signature-based tools.",
+      "tags": ["Browser Extensions", "LLM Agents", "Semantic Analysis"],
+      "file": ""
+    },
+    {
+      "id": "fp-check-analyzer",
+      "title": "Browser Extension FP Check Analyzer",
+      "full_title": "Multi-Dimensional False Positive Check Analyzer for Browser Extension Security",
+      "category": "AI for Cyber",
+      "date": "2026-02",
+      "description": "Multi-dimensional analysis system to reduce false positives in browser extension security detection, improving operational accuracy at scale.",
+      "tags": ["Browser Extensions", "False Positive Reduction", "ML"],
+      "file": ""
+    },
+    {
+      "id": "qr-code-shield",
+      "title": "QR Code Shield",
+      "full_title": "QR Code Shield: Detect QR Code Phishing Attacks at the Source",
+      "category": "AI for Cyber",
+      "date": "2026-01",
+      "description": "Detection system for phishing attacks delivered via QR codes, analyzing encoded URLs and visual context to catch quishing attacks at the source.",
+      "tags": ["QR Phishing", "Quishing", "Phishing Detection"],
+      "file": ""
+    },
+    {
+      "id": "rag-extension-detector",
+      "title": "RAG-Based Extension Impersonation Detector",
+      "full_title": "RAG Based Agentic Detection of Malicious Impersonating Browser Extensions",
+      "category": "AI for Cyber",
+      "date": "2026-01",
+      "description": "Retrieval-augmented generation (RAG) agentic system that detects browser extensions impersonating legitimate ones, using semantic similarity over a curated extension knowledge base.",
+      "tags": ["RAG", "Browser Extensions", "Impersonation Detection"],
+      "file": "Patent - Malicious Impersonating Browser Extension Detector.pdf"
+    },
+    {
+      "id": "defensive-domains-llm",
+      "title": "Detecting Defensively Registered Domains via LLMs",
+      "full_title": "Detecting Defensively Registered Domains Using LLMs",
+      "category": "AI for Cyber",
+      "date": "2025-10",
+      "description": "LLM-powered system that identifies domains registered defensively by organizations to prevent brand abuse, enabling better threat intelligence prioritization.",
+      "tags": ["Domain Intelligence", "LLM", "Brand Protection"],
+      "file": ""
+    },
+    {
+      "id": "advanced-extension-security",
+      "title": "Inline Extension Security Prevention",
+      "full_title": "Advanced Extension Security: Preventing Installation of Malicious and Compromised Extensions with Inline Analysis",
+      "category": "AI for Cyber",
+      "date": "2025-10",
+      "description": "Inline analysis system that blocks malicious or compromised browser extension installations and updates in real time, before execution.",
+      "tags": ["Browser Extensions", "Inline Prevention", "Security"],
+      "file": ""
+    },
+    {
+      "id": "multimodal-extension-scoring",
+      "title": "Multimodal Extension Risk Scoring",
+      "full_title": "Multimodal Risk Scoring of Chrome Extensions Using an LLM Agent with Tools",
+      "category": "AI for Cyber",
+      "date": "2025-08",
+      "description": "Multimodal LLM agent equipped with analysis tools that scores Chrome extension risk by examining permissions, code behavior, and visual signals simultaneously.",
+      "tags": ["LLM Agents", "Risk Scoring", "Browser Extensions"],
+      "file": ""
+    },
+    {
+      "id": "certified-hijacking",
+      "title": "Real-Time Certified Hijacking Detection",
+      "full_title": "Real-Time Detection and Mitigation of Certified Hijacking Attacks",
+      "category": "AI for Cyber",
+      "date": "2025-08",
+      "description": "Real-time system that detects and mitigates certificate-based hijacking attacks by monitoring certificate transparency logs for anomalous issuance patterns.",
+      "tags": ["Certificate Transparency", "Hijacking Detection", "Real-time"],
+      "file": "Real-Time Certified Malicious Domains Patent Application.pdf"
+    },
+    {
+      "id": "pastejacking-detector",
+      "title": "Pastejacking Detector",
+      "full_title": "Methods and Tools to Detect Pastejacking Web Attacks Leveraging Dynamic Analysis and LLM Agents",
+      "category": "AI for Cyber",
+      "date": "2025-07",
+      "description": "Detects pastejacking attacks — where malicious websites silently alter clipboard content — using dynamic browser analysis and LLM agents to identify malicious intent.",
+      "tags": ["Pastejacking", "Browser Security", "LLM Agents"],
+      "file": "Pastejacking Detector Patent.pdf"
+    },
+    {
+      "id": "ava-oauth",
+      "title": "AVA: OAuth Flow Abuse Detector",
+      "full_title": "AVA: Authentication Verification Analyzer for Detecting OAuth Flow Abuses",
+      "category": "AI for Cyber",
+      "date": "2025-06",
+      "description": "Analyzes OAuth authentication flows to detect abuse patterns including consent phishing, token hijacking, and malicious app impersonation.",
+      "tags": ["OAuth Security", "Authentication", "Phishing"],
+      "file": ""
+    },
+    {
+      "id": "multimodal-malicious-site",
+      "title": "Multimodal In-Browser Malicious Site Detection",
+      "full_title": "Multimodal In-Browser System for Detecting Malicious Websites with Optimized Cloud Support",
+      "category": "AI for Cyber",
+      "date": "2025-05",
+      "description": "In-browser multimodal ML system for real-time malicious website detection combining visual, textual, and structural signals with efficient cloud backend support.",
+      "tags": ["Malicious Sites", "Multimodal ML", "Real-time Detection"],
+      "file": ""
+    },
+    {
+      "id": "graphseek",
+      "title": "GraphSeek",
+      "full_title": "GraphSeek: GraphRAG Powered LLMs for Detection and Attribution of Malicious Campaign IoCs",
+      "category": "AI for Cyber",
+      "date": "2025-04",
+      "description": "Graph-powered RAG system using LLMs to detect and attribute indicators of compromise (IoCs) across malicious campaigns, enabling analysts to pivot through related threat infrastructure.",
+      "tags": ["GraphRAG", "Threat Attribution", "IoC Analysis"],
+      "file": "GraphSeek patent meeting slides.pdf"
+    },
+    {
+      "id": "ai-social-engineering",
+      "title": "AI Social Engineering Defense",
+      "full_title": "AI Social Engineering Defense: A Grounded AI-Based Pipeline for Detecting Social Engineering Attacks Across a Variety of Modalities",
+      "category": "AI for Cyber",
+      "date": "2025-03",
+      "description": "Grounded AI pipeline detecting social engineering attacks across voice, text, image, and video modalities — multi-modal defense against next-generation phishing.",
+      "tags": ["Social Engineering", "Multimodal AI", "Phishing"],
+      "file": ""
+    },
+    {
+      "id": "urlagent",
+      "title": "URLAgent",
+      "full_title": "URLAgent: Autonomously Assess the Maliciousness of URLs Synergizing Reasoning and Acting in LLMs",
+      "category": "AI for Cyber",
+      "date": "2025-03",
+      "description": "LLM-powered autonomous agent that assesses URL maliciousness by combining chain-of-thought reasoning with live tool use — screenshot analysis, content inspection, and threat intel lookups.",
+      "tags": ["URL Analysis", "LLM Agents", "Autonomous Reasoning"],
+      "file": "URLAgent Patent Application.pdf"
+    },
+    {
+      "id": "ti-ninja",
+      "title": "TI Ninja",
+      "full_title": "Real-Time Automated Extraction of Campaign CTI from Threat Reports",
+      "category": "AI for Cyber",
+      "date": "2024-08",
+      "description": "Autonomous agent that ingests threat intelligence reports and performs real-time structured extraction of campaign CTI — actors, TTPs, indicators — producing actionable intelligence at scale.",
+      "tags": ["Threat Intelligence", "CTI Extraction", "NLP"],
+      "file": "TI Ninja Patent Application.pdf"
+    },
+    {
+      "id": "campaignnet",
+      "title": "CampaignNet",
+      "full_title": "CampaignNet: URL Representation Learning Based Detection of Patient-Zero Campaigns and Related Malicious URLs",
+      "category": "AI for Cyber",
+      "date": "2024-12",
+      "description": "Graph representation learning system that identifies patient-zero phishing campaigns and clusters related malicious URLs for automated campaign attribution.",
+      "tags": ["Campaign Detection", "Representation Learning", "URL Analysis"],
+      "file": "CampaignNet Patent Application.pdf"
+    },
+    {
+      "id": "deepscam",
+      "title": "Deepscam",
+      "full_title": "Deepscam: A Transfer Learning Approach to Detecting HTML of Web Scams",
+      "category": "AI for Cyber",
+      "date": "2024-09",
+      "description": "Transfer learning model that analyzes HTML structure and content of web pages to detect scam sites with high precision, generalizing across novel scam templates.",
+      "tags": ["Transfer Learning", "Scam Detection", "HTML Analysis"],
+      "file": ""
+    },
+    {
+      "id": "deepfake-detection",
+      "title": "AI Deepfake Detection Pipeline",
+      "full_title": "Artificial Intelligence Powered Deepfake Detection Filtering Pipeline",
+      "category": "AI for Cyber",
+      "date": "2024-05",
+      "description": "End-to-end AI pipeline for real-time deepfake detection and filtering, combining visual artifact analysis with behavioral signals to catch synthetic media used in fraud.",
+      "tags": ["Deepfake Detection", "Synthetic Media", "Fraud Prevention"],
+      "file": ""
+    },
+    {
+      "id": "gnn-campaign-detection",
+      "title": "GNN Campaign Detection",
+      "full_title": "Automated Discovery of Malicious Website Campaign Infrastructure Using Graph Neural Networks",
+      "category": "AI for Cyber",
+      "date": "2024-05",
+      "description": "Graph neural network system that automatically discovers and maps malicious campaign infrastructure by modeling relationships between domains, IPs, and certificates.",
+      "tags": ["GNN", "Campaign Infrastructure", "Threat Attribution"],
+      "file": "Patent - GNN based campaign detection.pdf"
+    },
+    {
+      "id": "stockpiled",
+      "title": "Stockpiled Domain Detection",
+      "full_title": "Methods to Detect Malicious Stockpiled Domain Names",
+      "category": "AI for Cyber",
+      "date": "2023-06",
+      "description": "Detection methods for identifying domains that attackers register and hold in reserve ('stockpile') before launching coordinated campaigns, enabling proactive blocking.",
+      "tags": ["Domain Stockpiling", "Threat Intel", "Proactive Defense"],
+      "file": "Stockpiled Patent Presentation.pdf"
+    },
+    {
+      "id": "domain-spider",
+      "title": "Domain Spider",
+      "full_title": "Proactively Discovering Malicious Domains Through Guided Crawling of Attack Infrastructure",
+      "category": "AI for Cyber",
+      "date": "2024-01",
+      "description": "Guided crawler that traverses attack infrastructure through WHOIS relationships, certificate transparency, and DNS pivots to proactively map and block malicious domain networks.",
+      "tags": ["Domain Discovery", "Guided Crawling", "Infrastructure Mapping"],
+      "file": "IDF-01859 - Patent - Domain Spider.pdf"
+    },
+    {
+      "id": "ml-domain-risk",
+      "title": "ML Domain Risk Scoring",
+      "full_title": "Real-Time Detection of Malicious URLs Based on ML-Powered Domain Risk Scoring",
+      "category": "AI for Cyber",
+      "date": "2024-01",
+      "description": "ML pipeline combining lexical, behavioral, and graph features to produce real-time domain risk scores, powering downstream URL filtering and security policy decisions.",
+      "tags": ["Domain Risk", "ML Scoring", "URL Filtering"],
+      "file": "Patent Application ML based Domain Risk Scoring and Applications .pdf"
+    }
+  ],
+  "last_updated": "2026-04-09T00:00:00Z",
+  "updated_by": "manual-review"
+}
